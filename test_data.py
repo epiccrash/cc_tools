@@ -46,3 +46,6 @@ class GameLibrary:
             game_count += 1
         return return_str
 
+# Created to be imported into convert.py
+def print_game_library(game_library_data):
+    print(game_library_data)
